@@ -1,0 +1,124 @@
+body {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   color: #1E1E1E;
+}
+
+.root {
+   display: flex;
+   width: 1280px;
+   height: 720px;
+   margin: auto;
+   padding-top: 42px;
+}
+
+.root__sidebar {
+   width: 69px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background: #FBFBFB;
+   border-right: 1px solid #EAEAEA;
+}
+
+.sidebar__button {
+   width: 28px;
+   height: 28px;
+   background-image: url(./images/Group\ 202.svg);
+   outline: none;
+   border: none;
+   background-color: #FBFBFB;
+   margin: auto;
+   cursor: pointer;
+}
+
+.root__profile {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.profile__container {
+   width: 510px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   margin: 60px 385px 239px 320px;
+}
+
+.container__avatar {
+   width: 131px;
+   height: 131px;
+   border-radius: 50%;
+   background: #EFEFEF;
+   margin: auto;
+}
+
+.container__name {
+   width: 50px;
+   height: 16px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 16px;
+   color: #1E1E1E;
+   margin: 20px auto 100px;
+}
+
+.container__info {
+   width: 100%;
+   height: 23px;
+   border-bottom: 1px solid #EAEAEA;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.container__info:last-of-type {
+   border-bottom: none;
+}
+
+.info__left {
+   min-width: 39px;
+   height: 13px;
+   font-size: 13px;
+   line-height: 13px;
+   color: #1E1E1E;
+   margin: 0px;
+}
+
+.info__right {
+   min-width: 62px;
+   height: 13px;
+   font-size: 13px;
+   line-height: 13px;
+   color: #999;
+   margin: 0px;
+}
+
+.container__change {
+   display: block;
+   width: 100%;
+   height: 23px;
+   text-decoration: none;
+   border-bottom: 1px solid #EAEAEA;
+   color: #3369F3;
+   font-size: 13px;
+   line-height: 13px;
+   margin-top: 39px;
+}
+
+.container__exit {
+   display: block;
+   margin-top: 10px;
+   width: 41px;
+   height: 
+   13px;
+   font-size: 13px;
+   line-height: 13px;
+   color: #FF0000;
+   text-decoration: none;
+}

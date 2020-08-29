@@ -1,0 +1,352 @@
+body {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   color: #1E1E1E;
+}
+
+.root {
+   display: flex;
+   width: 1280px;
+   height: 720px;
+   margin: auto;
+   padding-top: 42px;
+}
+
+.root__navigation {
+   width: 292px;
+   height: 720px;
+   z-index: 2;
+   display: flex;
+   flex-direction: column;
+   background-color: #FBFBFB;
+   border-right: 1px solid #EAEAEA;
+   padding: 24px 10px 0px 10px;
+}
+
+.navigation__profile-link {
+   display: block;
+   font-size: 12px;
+   line-height: 12px;
+   color: #999;
+   text-align: right;
+   text-decoration: none;
+   margin-right: 13px;
+}
+
+.navigation__search {
+   display: block;
+   width: 290px;
+   height: 32px;
+   background: #EFEFEF;
+   border-radius: 5px;
+   margin: 23px 0px 14px;
+   outline: none;
+   border: none;
+}
+
+.navigation__messages-container {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 617px;
+}
+
+.messages-container__message {
+   display: flex;
+   flex-direction: row;
+   width: 290px;
+   height: 47px;
+   border-top: 1px solid #EAEAEA;
+   border-bottom: 1px solid #EAEAEA;
+   padding: 12px 0px;
+   z-index: 1;
+}
+
+.messages-container__message_mid {
+   padding: 9px 0px;
+}
+
+.messages-container__message_chat {
+   width: 100%;
+   border-top: 0px;
+   padding-bottom: 12px;
+}
+
+.message__logo {
+   display: block;
+   background-color: #EFEFEF;
+   width: 47px;
+   height: 47px;
+   border-radius: 25px;
+}
+
+.message__logo_small {
+   width: 37px;
+   height: 33px;
+}
+
+.message__data {
+   display: flex;
+   flex-direction: column;
+   width: 240px;
+}
+
+.message__data_chat {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.data__upper-container {
+   display: flex;
+   flex-direction: row;
+   width: 232px;
+   height: 13px;
+   justify-content: space-between;
+   margin: 0px 0px 0px 11px;
+}
+
+.data__upper-container_chat {
+   flex-direction: column;
+   height: 30px;
+   margin: 0px;
+}
+
+.upper-container__name {
+   font-weight: 600;
+   height: 100%;
+   font-size: 13px;
+   line-height: 10px;
+   color: #1E1E1E;
+   margin: 0px;
+}
+
+.upper-container__name_chat {
+   margin: 3px 0px 7px 9px;
+}
+
+.upper-container__time {
+   width: auto;
+   height: auto;
+   font-size: 9px;
+   line-height: 13px;
+   text-align: center;
+   color: #999;
+   margin: 0px;
+}
+
+.upper-container__time_chat {
+   width: 130px;
+   font-size: 12px;
+   line-height: 12px;
+   margin: 0px;
+}
+
+.data__bottom-container {
+   display: flex;
+   flex-direction: row;
+   width: 247px;
+   height: 30px;
+   justify-content: space-between;
+}
+
+.bottom-container__text {
+   max-width: 193px;
+   max-height: 30px;
+   font-size: 12px;
+   line-height: 13px;
+   color: #999;
+   margin: 4px 0px 0px 11px;
+}
+
+.bottom-container__counter {
+   width: 20px;
+   height: 17px;
+   background-color: #3369F3;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 11px;
+   line-height: 12px;
+   text-align: center;
+   padding-top: 3px;
+   margin: 13px 4px 0px 0px;
+}
+
+.bottom-container__counter_none {
+   display: none;
+}
+
+.root__chat {
+   width: 969px;
+   height: 720px;
+   display: flex;
+   flex-direction: column;
+   padding: 0px 20px;
+}
+
+.chat__default {
+   width: 261px;
+   height: 12px;
+   font-size: 12px;
+   line-height: 17px;
+   color: #999;
+   margin: auto;
+}
+
+.wrapper {
+   width: 8px;
+   float: left;
+}
+
+ .triangle.right {
+   border: 1px solid #999;
+   border-width: 0 0 1px 1px;
+   width: 6px;
+   height: 5px;
+   margin-left: 282px;
+   margin-top: 3px;
+   -webkit-transform: rotate(-135deg);
+   -ms-transform: rotate(-135deg);
+   -o-transform: rotate(-135deg);
+   transform: rotate(-135deg);
+}
+
+ .data__menu-logo {
+   width: 3px;
+   height: 15px;
+   background-image: url(./images/Group\ 194.svg);
+   margin: 10px 10px 0px 0px;
+   float: right;
+}
+
+ .chat__right {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.right__date {
+   min-width: 48px;
+   height: 12px;
+   font-size: 12px;
+   line-height: 12px;
+   color: #999;
+   margin: 48px auto 30px;
+}
+
+.right__message {
+   max-width: 403px;
+   height: 190px;
+   display: flex;
+   flex-direction: column;
+   background-color: #f8f8f8;
+   border-radius: 7%;
+   margin-bottom: 0px;
+   padding: 12px 0px 0px 0px;
+}
+
+.right__message_img {
+   background-color: #fff;
+   width: 316px;
+   height: 209px;
+   display: block;
+}
+
+.message__text {
+   width: 100%;
+   height: 100%;
+   font-size: 12px;
+   line-height: 15px;
+   color: #1E1E1E;
+   margin: 0px 0px 0px 11px;
+   z-index: 0;
+}
+
+.message__text_center {
+   text-align: center;
+   margin-top: 8px;
+}
+
+.message__time {
+   width: 23px;
+   height: 9px;
+   font-size: 9px;
+   line-height: 0px;
+   margin: 0px 10px 0px auto;
+   color: #999;
+   z-index: 1;
+}
+
+.message__text_margin {
+   margin: 0px 11px 11px 0px;
+}
+
+.right__message_answer {
+   margin: 0px 0px 0px auto;
+   background-color: #E4EDFD;
+}
+
+.message__container {
+   min-width: 47px;
+   height: 9px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left: 14px;
+   margin-top: 17px;
+}
+
+.right__message_small {
+   flex-direction: row;
+   width: 114px;
+   height: 34px;
+   text-align: center;
+   margin-top: 32px;
+   padding: 0px;
+}
+
+.right__footer {
+   width: 929px;
+   height: 54px;
+   margin: 30px auto 0px;
+   display: flex;
+   border-top: 1px solid #EAEAEA;
+}
+
+.footer__logo {
+   width: 32px;
+   height: 32px;
+   background-image: url(./images/Group\ 197.svg);
+   margin: 11px 0px 11px 0px;
+}
+
+.footer__input {
+   width: 849px;
+   height: 32px;
+   margin: 11px 10px;
+   background-color: #EFEFEF;
+   border-radius: 30px;
+   font-size: 12px;
+   line-height: 12px;
+   border: none;
+   outline: none;
+}
+
+.footer__button {
+   width: 28px;
+   height: 28px;
+   background-image: url(./images/Group\ 202.svg);
+   margin: 11px 0px;
+   border: none;
+   outline: none;
+   background-color: #fff;
+}
+
+.container__logo {
+   width: 9px;
+   height: 4px;
+   background-image: url(./images/Group\ 198.svg);
+}
