@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Messanger</title>
-   <link rel="stylesheet" href="./index.css">
+   <link rel="stylesheet" href="./chat.css">
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -134,7 +134,39 @@
          </div>
       </nav>
       <div class="root__chat">
-         <p class="chat__default">Выберите чат, чтобы отправить сообщение</p>
+         <div class="messages-container__message messages-container__message_chat">
+            <div class="message__logo message__logo_small"></div>
+            <div class="message__data_chat">
+               <div class="data__upper-container data__upper-container_chat">
+                  <h2 class="upper-container__name upper-container__name_chat">Вадим</h2>
+                  <p class="upper-container__time upper-container__time_chat">Был 5 минут назад</p>
+               </div>
+               <div class="data__menu-logo"></div>
+            </div>
+         </div>
+         <div class="chat__right">
+            <p class="right__date">19 июня</p>
+            <div class="right__message">
+               <p class="message__text">Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в какой-то момент попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем что астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой. <br><br>Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету они так никогда и не попали. Всего их было произведено 25 штук, одну из них недавно продали на аукционе за 45000 евро.</p>
+               <p class="message__time">11:56</p>
+            </div>
+            <div class="right__message right__message_img">
+               <img class="message__text message__text_margin" src="./images/Снимок экрана 2020-06-21 в 19.18 1.png" alt="Картинка в сообщении" />
+               <p class="message__time message__time_dark">11:56</p>
+            </div>
+            <div class="right__message right__message_answer right__message_small">
+               <p class="message__text message__text_center">Круто!</p>
+               <div class="message__container">
+                  <div class="container__logo"></div>
+                  <p class="message__time container__time">12:00</p>
+               </div>
+            </div>
+            <div class="right__footer">
+               <div class="footer__logo"></div>
+               <input type="text" placeholder="Сообщение" class="footer__input">
+               <button class="footer__button"></button>
+            </div>
+         </div>
       </div>
    </div>
 </body>
